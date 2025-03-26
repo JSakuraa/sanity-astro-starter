@@ -1,0 +1,30 @@
+{
+  "name": "web",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@portabletext/react": "^3.2.1",
+    "@sanity/astro": "^3.2.6",
+    "@sanity/client": "^6.28.3",
+    "@sanity/image-url": "^1.1.0",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "astro": "^5.5.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-is": "^19.0.0",
+    "react-player": "^2.16.0",
+    "sanity": "^3.81.0",
+    "styled-components": "^6.1.16"
+  },
+  "devDependencies": {
+    "@astrojs/react": "^4.2.2",
+    "sass-embedded": "^1.86.0"
+  }
+}
